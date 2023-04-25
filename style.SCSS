@@ -1,0 +1,18 @@
+body {
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    animation-duration: 8s;
+    animation-name: test;
+    @keyframes test {
+        from {background: #000;}
+        to { background: #9c2323;}
+        
+    }
+}
